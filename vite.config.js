@@ -1,7 +1,7 @@
 /*
  * @Date: 2023-10-16 16:46:51
  * @LastEditors: mason
- * @LastEditTime: 2023-10-18 10:08:54
+ * @LastEditTime: 2023-10-18 13:47:08
  * @FilePath: \app1\vite.config.js
  */
 import { defineConfig } from 'vite'
@@ -14,7 +14,7 @@ function _resolve(dir) {
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "./",
+  base: "/antd_mobile_app/",
   plugins: [react()],
   resolve:{
     alias: {
